@@ -1,8 +1,15 @@
-import Page from 'components/Page';
+import React from 'react';
+import Page from '../components/Page';
+
 
 const DashboardPage=()=>
 {
-  return <div>Testing Dashboard page</div>
+  return  (
+    <div>
+       <Page/>
+       <div>Testing Dashboard page</div>
+    </div>
+    )
 }
 
 export default DashboardPage

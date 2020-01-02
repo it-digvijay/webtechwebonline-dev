@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
-import Dashboard from 'pages/Dashboard'
+import Dashboard from './src/pages/DashboardPage'
 
 class App extends Component {
   constructor() {
@@ -19,8 +19,9 @@ class App extends Component {
     return (
       <div>
         <Hello name={this.state.name} />
+         <Dashboard/>
         <p>
-          Start editing to see some magic happen :)
+          Footer
         </p>
       </div>
     );
