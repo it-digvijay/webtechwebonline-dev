@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 import Dashboard from './src/pages/DashboardPage'
+import {MainLayout } from './src/components/Layout';
 
 class App extends Component {
   constructor() {
@@ -19,6 +20,7 @@ class App extends Component {
     return (
       <div>
         <Hello name={this.state.name} />
+        <MainLayout />
          <Dashboard/>
         <p>
           Footer
