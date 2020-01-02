@@ -6,7 +6,7 @@ const DashboardPage=()=>
 {
   return  (
     <div>
-       <Page/>
+       <Page title="Dashboard"/>
        <div>Testing Dashboard page</div>
     </div>
     )

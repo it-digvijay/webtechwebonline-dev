@@ -1,7 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const page= ()=>
+const Page= ( {title})=>
 {
-  return (<div>This is page components </div>)
+  return (<div>Page : {title} </div>)
 }
-export default page
+
+
+Page.propsType={
+title:PropTypes.string
+};
+
+Page.defaultProps={
+  title:'Home'
+}
+
+export default Page
